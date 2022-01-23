@@ -7,7 +7,7 @@ public class DoubleTotal {
 	public static void main(String[] args) {
 //we created a class object so we can have access to default modifiers. since the method we want to use (sumDouble) has restriction for accessing.
 		DoubleTotal forUsingMethodSumDouble = new DoubleTotal();
-
+//program parts names should be meaningful that is why i name this particular class object (forUsingMethodSumDouble) to use the class method.
 		int myTotal = forUsingMethodSumDouble.sumDouble(2, 2);
 		
 		int myTotalTwo = forUsingMethodSumDouble.sumDouble(4, 8);
@@ -24,7 +24,8 @@ public class DoubleTotal {
 		int sum = 0;
 		
 		sum = sum + valueOne + valueTwo;
-		
+		//If the two values are the same. Yes, they are the same because I assigned the values 2 and 2 from my main method.
+		// (Parameter 1 and Parameter 2), then return double their sum
 		if ( valueOne == valueTwo) {
 			sum = sum * 2;
 		}
