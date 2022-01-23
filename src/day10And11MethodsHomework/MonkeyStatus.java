@@ -5,10 +5,10 @@ public class MonkeyStatus {
 		
 		/**
 		 * Write a method that takes two Boolean parameters
-• Method Name: monkeyTrouble
-• Method Return Type: Boolean
-• Parameter 1: Boolean aSmile
-• Parameter 2: Boolean bSmile
+â€¢ Method Name: monkeyTrouble
+â€¢ Method Return Type: Boolean
+â€¢ Parameter 1: Boolean aSmile
+â€¢ Parameter 2: Boolean bSmile
 We have two monkeys, a and b, and the parameters aSmile and bSmile indicate if each is smiling. We
 or if neither of them is smiling. Return true if we are in trouble
 
@@ -16,14 +16,14 @@ otherwise return false
 
 Then call your function from main method: Create a Boolean variable in your main method and assign
 the value what monkeyTrouble method returns
-• Variable Name : Boolean areWeInTrouble;
+â€¢ Variable Name : Boolean areWeInTrouble;
 		 */
 		
 		
 		
 		
-		monkeyTrouble (true,true);
-		boolean areWeinTrouble = true;
+		boolean areWeinTrouble = monkeyTrouble (true,true);
+		
 		System.out.println(areWeinTrouble);
 		
 		
