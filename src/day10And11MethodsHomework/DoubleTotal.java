@@ -26,7 +26,7 @@ public class DoubleTotal {
 		sum = sum + valueOne + valueTwo;
 		//If the two values are the same. Yes, they are the same because I assigned the values 2 and 2 from my main method.
 		// (Parameter 1 and Parameter 2), then return double their sum
-		if ( valueOne == valueTwo) {
+		if ( valueOne == valueTwo) { 
 			sum = sum * 2;
 		}
 		
