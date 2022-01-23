@@ -14,7 +14,7 @@ public class SubtractionMethodHw {
 
 		System.out.println(diffTotal);
 
-	} 
+	}  
 
 //we assign value to the selected method whenever we call that method from main method.
 	

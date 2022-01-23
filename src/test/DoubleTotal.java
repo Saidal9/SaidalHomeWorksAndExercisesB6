@@ -21,7 +21,7 @@ public class DoubleTotal {
 	int sumDouble(int valueOne, int valueTwo) {
 		
 		
-		int sum = 0;
+		int sum = 0; 
 		
 		sum = sum + valueOne + valueTwo;
 		//If the two values are the same. Yes, they are the same because I assigned the values 2 and 2 from my main method.
