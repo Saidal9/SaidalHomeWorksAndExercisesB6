@@ -29,19 +29,17 @@ public class SubtractionMethodHw {
 		// number(27 for now) and 21 (number-21),
 		
 		if (number > 21) {
-			System.out.println(number - 21);
-			
+		
+			System.out.println(number - 21 *result);
+
 			
 //also another requirement of the homework question is : except return double the difference if n is over 21.
 //we know number is over (>) or greater than 21 so we take the result variable : it is good we created this variable to return the value, this variable...
 //makes our homework easier too like we can double (*2) it's value before it returns the value to main method:...
 			
-			
-			
-
 		}
 
-		result = result * 2;
+		
 		return result;
 		
 
